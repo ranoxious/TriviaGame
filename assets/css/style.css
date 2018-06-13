@@ -1,0 +1,16 @@
+body{
+    background-image: url("../images/marvel.jpg");
+    background-size: 85%;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    height:20px;   /* Height of the footer */
+    text-align: center;
+    color:black;
+    padding: 15px 0;
+    clear: both;
+    width:100%;
+    font-size:14px;
+    font-family: 'Gill Sans Extrabold', sans-serif;
+}
