@@ -3,23 +3,23 @@ $('#start').on('click', function() {
 });
 
 var questions = [{
-	question: "What is the alias of Black Widow from Marvel Universe?", 
-	answers: ["Natalia Alianovna Romanova", "Gamora", "Jessica Jones", "Wanda Maximoff"], 
-	correctAnswer: "Natalia Alianovna Romanova"
+	question: "1. What is the alias of Black Widow from Marvel Universe?", 
+	answers: ["Natasia", "Gamora", "Jessica Jones", "Wanda Maximoff"], 
+	correctAnswer: "Natasia"
 }, { 
-	question: "Which Avengers is the wealthy American magnate, playboy, ingenious scientist?",
+	question: "2. Which Avengers is the wealthy American magnate, ingenious scientist?",
 	answers: ["Tony Stark", "Emma Frost", "Black Panther", "Thor"], 
 	correctAnswer: "Black Panther"
 }, { 
-	question: "Which character became abandoned and left to die but later was adopted as a Asgardian prince known as a God of Mischief?",
+	question: "3. Which Asgardian prince is known as a God of Mischief?",
 	answers: ["The Hulk", "Groot", "Loki", "Thanos"],
 	correctAnswer: "Loki"
 }, {
-	question: "What is the salute in Black Panther?", 
+	question: "4. What is the salute in Black Panther?", 
 	answers: ["Ragnorak", "Raccoon", "Infinity War", "Wakanda Forever"],
     correctAnswer: "Wakanda Forever"
 }, {
-    question: "What was Thor hammer’s name?",
+    question: "5. What was Thor hammer’s name?",
     answers: ["Hela", "Mjolnir", "Ultron", "Thunder"],
     correctAnswer: "Mjolnir"
 }];
@@ -90,14 +90,24 @@ var game = {
 			}	
 		});
         
-        this.result(); 
+		this.result(); 
+		
+		
+		
 	}, 
 	result: function() { 
 	clearInterval(timer); 
 	$('#blonde h4').remove();
-	$('#blonde').html("<h4>Complete!</h4>"); 
+	$('#blonde').html("<h4>Complete</h4>"); 
 	$('#blonde').append("<h4>Correct Answers: "+this.correct+"</h4>");
 	$('#blonde').append("<h4>Incorrect Answers: "+this.incorrect+"</h4>");
 	$('#blonde').append("<h4>Unanswered: "+(questions.length-(this.incorrect+this.correct))+"</h4>");
 	}
 }
+
+// $("#doneGame").on("click", function() {
+// 	doneGame();
+//   })
+//   function doneGame() {
+
+// 	clearInterval(intervalId);

@@ -1,6 +1,6 @@
 body{
-    background-image: url("../images/captain.jpg");
-    background-size: 80%;
+    background-image: url("../images/wallpaper.jpg");
+    background-size: 100%;
 
 }
 .footer {
@@ -31,9 +31,20 @@ body{
 
 #blonde {
 	text-align: center; 
-	font-family: 'Chathura', sans-serif;;
-	font-size: 20px;
+    font-family: 'Chathura', sans-serif;
+    font-size: 20px;
+    color:black;
 }
+
+/* 
+.allDone {
+	font-size: 15px;
+	padding:20px;
+  }
+
+  .done{
+      font-size:15px;
+  } */
 /* #wrapper {
     margin-left: 34px;
     margin-right: 34px;
