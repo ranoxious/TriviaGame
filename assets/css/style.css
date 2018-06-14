@@ -1,11 +1,12 @@
 body{
-    background-image: url("../images/marvel.jpg");
-    background-size: 85%;
+    background-image: url("../images/captain.jpg");
+    background-size: 80%;
+
 }
 .footer {
     position:absolute;
     bottom:0;
-    height:20px;   /* Height of the footer */
+    height:8px;   /* Height of the footer */
     text-align: center;
     color:black;
     padding: 15px 0;
@@ -13,4 +14,17 @@ body{
     width:100%;
     font-size:14px;
     font-family: 'Gill Sans Extrabold', sans-serif;
+}
+#title{
+    text-align: center;
+}
+#start {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+ 	background-color: #455a64;
+ 	color: white;
+ 	height: 100px;
+ 	width: 100px;
+ 	font-family: 'Chathura', sans-serif;
 }
